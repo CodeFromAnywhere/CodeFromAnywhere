@@ -11,7 +11,7 @@ Here are some of our favorite resources for getting started:
 
  # 🌐 Our Community
 
-💭 Do you have a question, comment, or want to connect? Head over to our [Github Discussions](https://github.com/orgs/codefromanywhere/discussions) or join us on [Discord](https://discord.gg/56yJzjJjHu)
+💭 Do you have a question, comment, or want to connect? Head over to our [Github Discussions](https://github.com/CodeFromAnywhere/actionschema/discussions) or join us on [Discord](https://discord.gg/56yJzjJjHu)
 
 # 🚀 Get Started
 
