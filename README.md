@@ -8,8 +8,6 @@ Here are some of our favorite resources for getting started:
 
 - [CFA Plugin Documentation](https://docs.codefromanywhere.com/)
 - [Prompt Engineering Guide](https://github.com/CodeFromAnywhere/prompt-engineering)
-- [ActionSchema](https://actionschema.com/learn)
-- [Screenless](https://screenless.org)
 
  # 🌐 Our Community
 
@@ -19,3 +17,5 @@ Here are some of our favorite resources for getting started:
 
 If you're ready to get started using our products, follow below links:
 
+- [ActionSchema](https://actionschema.com)
+- [Screenless](https://screenless.org)
