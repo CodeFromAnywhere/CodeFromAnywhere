@@ -76,3 +76,17 @@ If I feel _fancy_, work on this. More experimental:
 
 - How can I build a meta programming language that dynamically finds new actions, tests them, and improves them, that can create purpose-oriented change in a system?
   - How can I measure purpose-oriented change and figure out whether it's worth the cost?
+
+# License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+## Commercial License
+
+If your use of this software generates more than $1,000,000 in Annual Recurring Revenue (ARR), you are required to obtain a commercial license. Please see the [COMMERCIAL_LICENSE](COMMERCIAL_LICENSE.md) file for more information.
+
+## Contact
+
+For commercial licensing inquiries, please contact Wijnand at wijnand@karsens.com
