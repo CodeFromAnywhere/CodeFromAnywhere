@@ -24,17 +24,18 @@ LONGTERM: Keep these stable services for decades. Keep LOC/Complexity LOW.
 
 # Highlevel
 
-This is the current ecosystem of projects developed by Code From Anywhere.
+This is the current ecosystem of projects developed by Code From Anywhere (❗️ dependency, 🚫 blocked, 🔴 not started, 🟠 work in progress, 🟢 done)
 
 | Website                                                        | Purpose                                         | Status | POC                                                                                                                                                      | LOC  |
 | -------------------------------------------------------------- | ----------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| [Agent OpenAPI](https://agent.actionschema.com)                | Turn any API into an Agent                      | 🟠     | 🟢 Simple POC<br>🟢 OpenAPI-centric Refactor<br>🔴 Threads<br>🔴 Files<br>🔴 Agent-Agent                                                                 | 1984 |
-| [CRUD OpenAPI](https://data.actionschema.com)                  | Turn database into agent-tools                  | 🟠     | 🟢 CRUD Only first<br>🟢 Semantic search<br>🔴 CLI<br>🔴 Config: oAuth user separation<br>🔴 ActionSchema integration<br>🔴 CRUD-Agent                   | 4450 |
 | [Agent Relay](https://github.com/CodeFromAnywhere/agent-relay) | Make agent available anywhere                   | 🟠     | 🟢 Browser & Phonecall STS<br>🟢 Custom agent compatibility<br>🟢 Whatsapp, SMS, Messenger<br>🔴 Email<br>🔴 Deepgram STS Tool use                       | 1175 |
+| User OpenAPI                                                   | Add User Management to your OpenAPI             | 🔴 ❗️ | Serve Clerk on https://login.actionschema.com and proxy+extend an OpenAPI                                                                                |      |
 | [Combination Proxy](https://proxy.actionschema.com)            | Combine multiple OpenAPIs into one              | 🔴     | 🟠 Serve with form to make your own easily.<br>🔴 Examples of agents.                                                                                    | 1300 |
-| [Enhancement Proxy](https://openapi.actionschema.com)          | Allow agents to iteratively improve their tools | 🔴     | 🟠 Serve on subdomain with frontpage<br>🔴 Create OpenAPI to self-modify                                                                                 | ±2k  |
+|                                                                |                                                 |        |                                                                                                                                                          |      |
+| [Agent OpenAPI](https://agent.actionschema.com)                | Turn any API into an Agent                      | 🚫     | 🟢 Simple POC<br>🟢 OpenAPI-centric Refactor<br>🚫 Threads<br>🔴 Files<br>🔴 Agent-Agent                                                                 | 1984 |
+| [CRUD OpenAPI](https://data.actionschema.com)                  | Turn database into agent-tools                  | 🚫     | 🟢 CRUD Only firsst<br>🟢 Semantic search<br>🔴 CLI<br>🚫 Config: user separation<br>🔴 ActionSchema integration<br>🔴 CRUD-Agent                        | 4450 |
+| [Enhancement Proxy](https://openapi.actionschema.com)          | Allow agents to iteratively improve their tools | 🚫     | 🚫 Finish ActionSchema Rewrite<br>🟠 Serve on subdomain with frontpage<br>🔴 Create OpenAPI to self-modify                                               | ±2k  |
 | [OpenAPI Explorer](https://explorer.actionschema.com)          | Explore OpenAPI Possibilities                   | 🔴     | 🟢 Forms<br>🟢 Page-per-tag, all forms on tagpage.<br>🔴 manual entry<br>🔴 Aggregate openapis from multiple endpoints<br>🔴 Expose LLM search endpoint. | 664  |
-| User OpenAPI                                                   | Add User Management to your OpenAPI             | 🔴     | Serve Clerk on https://login.actionschema.com and proxy+extend an OpenAPI                                                                                |      |
 
 A dependency to the above is what I call "OpenAPI-first development". It is an opinionated way of [design-first](https://swagger.io/blog/code-first-vs-design-first-api/) development where your OpenAPI serves as the SSOT for a lot of things, and you don't generate it, you rather generate pieces in your code FROM it. Here are some libraries I've made to allow for this.
 
