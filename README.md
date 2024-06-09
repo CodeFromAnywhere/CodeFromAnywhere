@@ -2,11 +2,6 @@
 
 Welcome to [Code From Anywhere](https://codefromanywhere.com/) - a group of distributed developers and entrepreneurs building planet-first & humane-centered software. We work remotely but often come together in places like Nepal and Brazil, going on adventures.
 
-Top contributors (lonely here...)
-
-- [Wijnand Karsens](https://karsens.com)
-- 👀
-
 We 🤍 Developers, AI Startups & Adventurers. Do you have a question, comment, or want to connect? Head over to our [Discord](https://discord.gg/56yJzjJjHu)
 
 # Key focus: Reliable Agents by intelligent search
@@ -51,19 +46,18 @@ A dependency to the above is what I call "OpenAPI-first development". It is an o
 
 If I feel _fancy_, work on this. More experimental:
 
-| Website           | Purpose                      | Repo               | Status     | POC or next steps                                                    | Depends on                      |
-| ----------------- | ---------------------------- | ------------------ | ---------- | -------------------------------------------------------------------- | ------------------------------- |
-|                   | web                          | serverless-scraper |            | Serverless Playwright Scraping OpenAPI.                              |
-|                   |                              |                    |            | E2E testing/validating an OpenAPI's functionality                    | ActionSchema?                   |
-|                   |                              | procedures         | Brainstorm | Natural Language to Operations mapping                               | Good OpenAPI search             |
-|                   |                              |                    | Brainstorm | LLM Hierarchy Creation, Maintenance, and Search                      |                                 |
-| ActionSchema Demo | Show how ActionSchema works  | actionschema-demo  | Paused     | VSCode plugin for OpenAPI selection and form-filling                 | Functional OpenAPI              |
-|                   |                              |                    |            | Slow-agents that can continue very long or self-activate             |                                 |
-|                   |                              |                    |            | Agents openapi unlocks hierarchical actionschema                     |                                 |
-|                   |                              |                    |            | Some agentic patterns are super useful to implement                  | Agent OpenAPI                   |
-| User Openapi      |                              | user-openapi       | Brainstorm | Wrapper that adds user-signup and monetisation to stateless openapis |                                 |
-| Universal API     | Universal-API or Open-LAM    |                    |            | Exposes all services through a single cacheable NLP endpoint         | OpenAPI Explorer, Search, Proxy |
-| Human OpenAPI     | Turn people into agent-tools |                    |            |                                                                      | Agent Relay                     |
+| Website              | Purpose                      | Repo               | Status     | POC or next steps                                                 | Depends on                      |
+| -------------------- | ---------------------------- | ------------------ | ---------- | ----------------------------------------------------------------- | ------------------------------- |
+| OpenAPI Tester       |                              |                    | Big Wish   | E2E testing/validating an OpenAPI's functionality                 | ActionSchema                    |
+| oAuth2 Authenticator |                              |                    | Big Wish   | Automatic signup, login, and payments to gather API access        | serverless-browser              |
+| Serverless Browser   |                              | serverless-browser |            | Serverless Playwright Browsing OpenAPI                            |                                 |
+|                      |                              |                    |            |                                                                   |                                 |
+|                      |                              | procedures         | Brainstorm | Natural Language to Operations mapping                            | Good OpenAPI search             |
+|                      |                              |                    | Brainstorm | LLM Hierarchy Creation, Maintenance, and Search                   |                                 |
+| ActionSchema Demo    | Show how ActionSchema works  | actionschema-demo  | Paused     | VSCode plugin for OpenAPI selection and form-filling              | Functional OpenAPI              |
+|                      |                              |                    | Big Wish   | Slow-agents that can continue very long or self-activate          | ActionSchema                    |
+| Universal API        | Universal-API or Open-LAM    |                    |            | Exposes all services through a single cacheable NLP endpoint      | OpenAPI Explorer, Search, Proxy |
+| Human OpenAPI        | Turn people into agent-tools |                    | Blocked    | User can signup after which the API can communicate with the user | 🟢 Agent Relay, 🔴 User OpenAPI |
 
 # Key insights
 
@@ -75,8 +69,16 @@ If I feel _fancy_, work on this. More experimental:
 
 ## Questions
 
+- Can ActionSchema become agentic: allowing an agent to decompose tasks in parallel and sequential ways?
 - How can I build a meta programming language that dynamically finds new actions, tests them, and improves them, that can create purpose-oriented change in a system?
   - How can I measure purpose-oriented change and figure out whether it's worth the cost?
+
+# Contributors and Sponsors
+
+Top contributors
+
+- [Wijnand Karsens](https://karsens.com)
+- lonely here... 👀
 
 # License
 
