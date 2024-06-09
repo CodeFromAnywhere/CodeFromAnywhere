@@ -9,6 +9,12 @@ Top contributors (lonely here...)
 
 We 🤍 Developers, AI Startups & Adventurers. Do you have a question, comment, or want to connect? Head over to our [Discord](https://discord.gg/56yJzjJjHu)
 
+# Key focus: Reliable Agents by intelligent search
+
+- Analysing thousands of services on capability, quality, speed, cost, and availability.
+- Have a scalable way to sign up and get access to all service providers with multiple accounts.
+- Proxy them into my own gateway which can be made available as a "Universal API" that exposes all services through a single endpoint.
+
 Strategy: **ActionSchema** for _Devs_: **OEF**
 
 - Devs want _Open_ source. Give it.
@@ -66,13 +72,7 @@ If I feel _fancy_, work on this. More experimental:
 - Most users care about their privacy and would want to have things ran locally. However, running locally is hard to setup and scale. Another way to have practical privacy is to keep the core local, but run smaller fleeting tasks in the cloud.
 - How any API works exactly doesn't need to be abstracted away from. The only thing we need to do is determine API capability, quality, speed, cost, and availability.
 
-# Key focus: Reliable Agents by intelligent search
-
-- Analysing thousands of services on capability, quality, speed, cost, and availability.
-- Have a scalable way to sign up and get access to all service providers with multiple accounts.
-- Proxy them into my own gateway which can be made available as a "Universal API" that exposes all services through a single endpoint.
-
-# Questions
+## Questions
 
 - How can I build a meta programming language that dynamically finds new actions, tests them, and improves them, that can create purpose-oriented change in a system?
   - How can I measure purpose-oriented change and figure out whether it's worth the cost?
