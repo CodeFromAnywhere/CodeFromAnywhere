@@ -8,7 +8,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### Commercial License
 
-If your use of this software generates more than $1,000,000 in Annual Recurring Revenue (ARR), you are required to obtain a commercial license.
+If your company generates more than $1,000,000 in Annual Recurring Revenue (ARR), you are required to obtain a commercial license.
 
 Please contact [Your Contact Information] to negotiate the terms and fees for the commercial license.
 

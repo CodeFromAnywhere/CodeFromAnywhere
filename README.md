@@ -85,7 +85,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 ## Commercial License
 
-If your use of this software generates more than $1,000,000 in Annual Recurring Revenue (ARR), you are required to obtain a commercial license. Please see the [COMMERCIAL_LICENSE](COMMERCIAL_LICENSE.md) file for more information.
+If your company generates more than $1,000,000 in Annual Recurring Revenue (ARR), you are required to obtain a commercial license. Please see the [COMMERCIAL_LICENSE](COMMERCIAL_LICENSE.md) file for more information.
 
 ## Contact
 
