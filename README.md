@@ -20,6 +20,8 @@ The Combination Proxy allows you to create a combination of multiple (subsets of
 
 ## Agent OpenAPI
 
+Turn any API into an Agent, Turn any Agent into an API.
+
 The Agent OpenAPI serves an OpenAPI for talking to an agent, so it can be discovered publicly, and can be used as a tool for other agents. Make your own agent OpenAPI [here](https://agent.actionschema.com)
 
 ![](agent-openapi.drawio.png)
@@ -35,6 +37,12 @@ With the above tooling, we can now create an agent that orchestrates certain tak
 Taking response time limitations out of the equation, this pattern can be done with infinite recursion. More on this coming soon.
 
 ![](agent-stacking.drawio.png)
+
+## Agent Relay
+
+Agents need to be accessible from anywhere. The Agent Relay makes agents accessible from messaging apps, VoIP and phonecalls, and over email!
+
+![](agent-relay.drawio.png)
 
 ## Human OpenAPI
 
