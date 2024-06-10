@@ -40,7 +40,11 @@ Data needs to be discoverable as tools. A reliable CRUD Agent is extremely usefu
 
 ## State Operations OpenAPI
 
-[ActionSchema](https://github.com/CodeFromAnywhere/ActionSchema) makes it possible to perform operations on items in a list, but it also makes it possible to grow your data into an ever-evolving system using data-centric programming. Check our demo [here](https://demo.actionschema.com)
+[ActionSchema](https://github.com/CodeFromAnywhere/ActionSchema) makes it possible to perform operations on items in a list, but it also makes it possible to grow your data into an ever-evolving system using data-centric programming.
+
+Coming soon.
+
+<!-- Check our demo [here](https://demo.actionschema.com) -->
 
 ![](actionschema.drawio.png)
 
