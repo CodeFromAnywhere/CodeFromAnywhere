@@ -1,6 +1,62 @@
+# Missing Building Blocks in the Agent World
+
+## OpenAPI Explorer
+
+A single OpenAPI usually is comprised of many services. To find these services, we've created the [OpenAPI Explorer](https://explorer.actionschema.com) so you can find programmable services (that agents can use) more easily.
+
+![](explorer.drawio.png)
+
+## Enhancement Proxy
+
+The Enhancement Proxy improves OpenAPIs, making them error-free and more easy to understand for agents. Make your own enhancement proxy [here](https://openapi.actionschema.com)
+
+![](enhancement-proxy.drawio.png)
+
+## Combination Proxy
+
+The Combination Proxy allows you to create a combination of multiple (subsets of) OpenAPIs, to serve as a new OpenAPI. Make your own combination proxy [here](https://proxy.actionschema.com)
+
+![](combination-proxy.drawio.png)
+
+## Agent OpenAPI
+
+The Agent OpenAPI serves an OpenAPI for talking to an agent, so it can be discovered publicly, and can be used as a tool for other agents. Make your own agent OpenAPI [here](https://agent.actionschema.com)
+
+![](agent-openapi.drawio.png)
+
+## Orchestration Agent
+
+With the above tooling, we can now create an agent that orchestrates certain taks to downstream agents. More on this coming soon.
+
+![](orchestration-agent.drawio.png)
+
+## Agent Stacking
+
+Taking response time limitations out of the equation, this pattern can be done with infinite recursion. More on this coming soon.
+
+![](agent-stacking.drawio.png)
+
+## Human OpenAPI
+
+Agents need to be able to have long interval back-and-forth with humans. Make your own Human OpenAPI [here](https://human.actionschema.com)
+
+![](human-openapi.drawio.png)
+
+## CRUD OpenAPI and Agent
+
+State needs to be discoverable as tools. A reliable CRUD Agent is extremely useful. You can create your own CRUD OpenAPI [here](https://data.actionschema.com)
+
+![](crud-agent.drawio.png)
+
+## State Operations OpenAPI
+
+[ActionSchema](https://github.com/CodeFromAnywhere/ActionSchema) makes it possible to perform operations on items in a list, but it also makes it possible to grow your data into an ever-evolving system using data-centric programming. Check our demo [here](https://demo.actionschema.com)
+
+![](actionschema.drawio.png)
+
 # Why
 
-- We're living through a technological paradigm shift that will change how we interact with computers, and how humans can find purpose. A new foundation is being created now, but many things are going wrong. In this important time, I want to do my part setting good standards for better HMC.
+- We're living through a technological paradigm shift that will change how we interact with computers, and how humans can find purpose. A new foundation is being created now. In this important time, I want to do my part setting good standards for better HMC.
 - Big tech capitalism is trying to create a controlled closed ecosystem for AI. As AGI is approaching, misaligned commercial incentives become ever more extreme, and I don't want to live in this walled garden distopia. The solution is an open, accessible, modular ecosystem for AI Agents. An ecosystem without any vendor lock-in or privacy problems. An ecosystem where we, the people, stay in control.
 - Functionally, I don't like most big AI Frameworks like LangChain because they are boilerplate-heavy, ill-tested, buggy, and founded on "hasty abstractions". OpenAPI is a long-standing standard that is not so well adopted yet in the AI world, and this has to change, as it's perfect for the use-case of tools for agents!
 - The cost of knowledge work is trending to zero. I might as well put it at zero right now, so I can find my true value elsewhere. Open value creation seems fundamentally better, which is why this project is fully open source.
