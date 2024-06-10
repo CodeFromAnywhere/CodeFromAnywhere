@@ -1,10 +1,9 @@
-# Let's Code From Anywhere!
+# Why
 
-Welcome to [Code From Anywhere](https://codefromanywhere.com/) - a group of distributed developers and entrepreneurs building planet-first & humane-centered software. We work remotely but often come together in places like Nepal and Brazil, going on adventures.
+- Big tech is trying to create a controlled closed ecosystem for AI. As AGI is approaching, misaligned commercial incentives become ever more extreme, and I don't want to live in this distopia. The solution is an open ecosystem for AI Agents. An ecosystem without any vendor lock-in or privacy problems. An ecosystem where we, the people, stay in control.
+- Functionally, I don't like most big AI Frameworks like LangChain because they are boilerplate-heavy, ill-tested, buggy, and founded on "hasty abstractions". OpenAPI is a long-standing standard that is ill-adopted in the AI world, and this has to change, as it's perfect for the use-case of tools for agents!
 
-We 🤍 Developers, AI Startups & Adventurers. Do you have a question, comment, or want to connect? Head over to our [Discord](https://discord.gg/56yJzjJjHu)
-
-# Key focus: Reliable Agents by intelligent search
+# Key Focus: Reliable Agents by intelligent search
 
 - Analysing thousands of services on capability, quality, speed, cost, and availability.
 - Have a scalable way to sign up and get access to all service providers with multiple accounts.
@@ -22,7 +21,7 @@ TODO: Keep jumping between these projects and aim to finish them asap. **Laserfo
 
 LONGTERM: Keep these stable services for decades. Keep LOC/Complexity LOW.
 
-# Highlevel
+# Highlevel ActionSchema
 
 This is the current ecosystem of projects developed by Code From Anywhere (❗️ dependency, 🚫 blocked, 🔴 not started, 🟠 work in progress, 🟢 done)
 
@@ -73,6 +72,12 @@ If I feel _fancy_, work on this. More experimental:
 - Can ActionSchema become agentic: allowing an agent to decompose tasks in parallel and sequential ways?
 - How can I build a meta programming language that dynamically finds new actions, tests them, and improves them, that can create purpose-oriented change in a system?
   - How can I measure purpose-oriented change and figure out whether it's worth the cost?
+
+# Let's Code From Anywhere!
+
+Welcome to [Code From Anywhere](https://codefromanywhere.com/) - a group of distributed developers and entrepreneurs building planet-first & humane-centered software. We work remotely but often come together in places like Nepal and Brazil, going on adventures.
+
+We 🤍 Developers, AI Startups & Adventurers. Do you have a question, comment, or want to connect? Head over to our [Discord](https://discord.gg/56yJzjJjHu)
 
 # Contributors and Sponsors
 
