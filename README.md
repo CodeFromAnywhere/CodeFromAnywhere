@@ -6,53 +6,35 @@ A single OpenAPI usually is comprised of many services. To find these services, 
 
 ![](explorer.drawio.png)
 
-## Enhancement Proxy
+<!-- ## Enhancement Proxy
 
 The Enhancement Proxy improves OpenAPIs, making them error-free and more easy to understand for agents. Make your own enhancement proxy [here](https://openapi.actionschema.com)
 
-![](enhancement-proxy.drawio.png)
+![](enhancement-proxy.drawio.png) -->
 
-## Combination Proxy
+<!-- ## Combination Proxy
 
-The Combination Proxy allows you to create a combination of multiple (subsets of) OpenAPIs, to serve as a new OpenAPI. Make your own combination proxy [here](https://proxy.actionschema.com)
+The Combination Proxy allows you to create a combination of multiple (subsets of) OpenAPIs, to serve as a new OpenAPI.
 
-![](combination-proxy.drawio.png)
+![](combination-proxy.drawio.png) -->
 
 ## Agent OpenAPI
 
 Turn any API into an Agent, Turn any Agent into an API.
 
-The Agent OpenAPI serves an OpenAPI for talking to an agent, so it can be discovered publicly, and can be used as a tool for other agents. Make your own agent OpenAPI [here](https://agent.actionschema.com)
+The Agent OpenAPI serves an OpenAPI for talking to an agent, so it can be discovered publicly, and can be used as a tool for other agents. More information in the [Agent OpenAPI GitHub](https://github.com/CodeFromAnywhere/agent-openapi)
 
 ![](agent-openapi.drawio.png)
 
-## Orchestration Agent
-
-With the above tooling, we can now create an agent that orchestrates certain taks to downstream agents. More on this coming soon.
-
-![](orchestration-agent.drawio.png)
-
-## Agent Stacking
-
-Taking response time limitations out of the equation, this pattern can be done with infinite recursion. More on this coming soon.
-
-![](agent-stacking.drawio.png)
-
 ## Agent Relay
 
-Agents need to be accessible from anywhere. The Agent Relay makes agents accessible from messaging apps, VoIP and phonecalls, and over email!
+Agents need to be accessible from anywhere. The Agent Relay makes agents accessible from messaging apps, VoIP and phonecalls, and over email! Check out the [Agent Relay on GitHub](https://github.com/CodeFromAnywhere/agent-relay)
 
 ![](agent-relay.drawio.png)
 
-## Human OpenAPI
+## CRUD OpenAPI
 
-Agents need to be able to have long interval back-and-forth with humans. Make your own Human OpenAPI [here](https://human.actionschema.com)
-
-![](human-openapi.drawio.png)
-
-## CRUD OpenAPI and Agent
-
-State needs to be discoverable as tools. A reliable CRUD Agent is extremely useful. You can create your own CRUD OpenAPI [here](https://data.actionschema.com)
+Data needs to be discoverable as tools. A reliable CRUD Agent is extremely useful. [More info here](https://github.com/CodeFromAnywhere/crud-openapi)
 
 ![](crud-agent.drawio.png)
 
