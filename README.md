@@ -1,5 +1,7 @@
 # Missing Building Blocks in the Agent World
 
+[AI Agents](https://transitivebullsh.it/ai-agents) will most likely be the most impactful technology of our generation. In my work I present you the following modular building blocks, fully open source.
+
 ## OpenAPI Explorer
 
 A single OpenAPI usually is comprised of many services. To find these services, we've created the [OpenAPI Explorer](https://explorer.actionschema.com) so you can find programmable services (that agents can use) more easily.
