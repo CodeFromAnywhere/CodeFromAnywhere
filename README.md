@@ -1,6 +1,6 @@
 # Missing Building Blocks in the Agent World
 
-[AI Agents](https://transitivebullsh.it/ai-agents) will most likely be the most impactful technology of our generation. In my work I present you the following modular building blocks, fully open source.
+[AI Agents will most likely be the most impactful technology of our generation](https://transitivebullsh.it/ai-agents). In this document I present you the following modular building blocks, fully open source.
 
 ## OpenAPI Explorer
 
@@ -58,10 +58,10 @@ Coming soon.
 
 # Why
 
-- We're living through a technological paradigm shift that will change how we interact with computers, and how humans can find purpose. A new foundation is being created now. In this important time, I want to do my part setting good standards for better HMC.
+- We're living through a technological paradigm shift that will change how we interact with computers, and how humans can find purpose. A new foundation is being created now. In this important time, I want to do my part setting good standards for HMC that benefits humanity.
 - Big tech capitalism is trying to create a controlled closed ecosystem for AI. As AGI is approaching, misaligned commercial incentives become ever more extreme, and I don't want to live in this walled garden distopia. The solution is an open, accessible, modular ecosystem for AI Agents. An ecosystem without any vendor lock-in or privacy problems. An ecosystem where we, the people, stay in control.
-- Functionally, I don't like most big AI Frameworks like LangChain because they are boilerplate-heavy, ill-tested, buggy, and founded on "hasty abstractions". OpenAPI is a long-standing standard that is not so well adopted yet in the AI world, and this has to change, as it's perfect for the use-case of tools for agents!
-- The cost of knowledge work is trending to zero. I might as well put it at zero right now, so I can find my true value elsewhere. Open value creation seems fundamentally better, which is why this project is fully open source.
+  <!-- - The cost of knowledge work is trending to zero. I might as well put it at zero right now, so I can find my true value elsewhere. Open value creation seems fundamentally better, which is why this project is fully open source. -->
+  <!-- - Functionally, I don't like most big AI Frameworks like LangChain because they are boilerplate-heavy, ill-tested, buggy, and founded on "hasty abstractions". OpenAPI is a long-standing standard that is not so well adopted yet in the AI world, and this has to change, as it's perfect for the use-case of tools for agents! -->
 
 # Key Focus: Reliable Agents by intelligent search
 
