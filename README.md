@@ -38,6 +38,12 @@ Data needs to be discoverable as tools. A reliable CRUD Agent is extremely usefu
 
 ![](crud-agent.drawio.png)
 
+## User OpenAPI
+
+Serve simple functionality behind a monetizable user-gateway [More info here](https://github.com/CodeFromAnywhere/user-openapi)
+
+![](https://raw.githubusercontent.com/CodeFromAnywhere/user-openapi/main/user-openapi.drawio.svg)
+
 ## State Operations OpenAPI
 
 [ActionSchema](https://github.com/CodeFromAnywhere/ActionSchema) makes it possible to perform operations on items in a list, but it also makes it possible to grow your data into an ever-evolving system using data-centric programming.
