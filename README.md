@@ -2,13 +2,31 @@
 
 ["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). In this document I present you the following modular building blocks, fully open source. Beware that most of it is still a work in progress! See this [high level overview](#highlevel-actionschema) for the current status.
 
+<!--
+## User OpenAPI
+
+Serve simple functionality behind a monetizable user-gateway [More info here](https://github.com/CodeFromAnywhere/user-openapi)
+
+![](https://raw.githubusercontent.com/CodeFromAnywhere/user-openapi/main/user-openapi.drawio.svg)
+
+## State Operations OpenAPI
+
+[ActionSchema](https://github.com/CodeFromAnywhere/ActionSchema) makes it possible to perform operations on items in a list, but it also makes it possible to grow your data into an ever-evolving system using data-centric programming.
+
+Coming soon.
+
+<!-- Check our demo [here](https://demo.actionschema.com)
+
+![](actionschema.drawio.png)
+
+
 ## OpenAPI Explorer
 
 A single OpenAPI usually is comprised of many services. To find these services, we've created the [OpenAPI Explorer](https://explorer.actionschema.com) so you can find programmable services (that agents can use) more easily.
 
 ![](explorer.drawio.png)
 
-<!-- ## Enhancement Proxy
+## Enhancement Proxy
 
 The Enhancement Proxy improves OpenAPIs, making them error-free and more easy to understand for agents. Make your own enhancement proxy [here](https://openapi.actionschema.com)
 
@@ -39,22 +57,6 @@ Agents need to be accessible from anywhere. The Agent Relay makes agents accessi
 Data needs to be discoverable as tools. A reliable CRUD Agent is extremely useful. [More info here](https://github.com/CodeFromAnywhere/crud-openapi)
 
 ![](crud-agent.drawio.png)
-
-## User OpenAPI
-
-Serve simple functionality behind a monetizable user-gateway [More info here](https://github.com/CodeFromAnywhere/user-openapi)
-
-![](https://raw.githubusercontent.com/CodeFromAnywhere/user-openapi/main/user-openapi.drawio.svg)
-
-## State Operations OpenAPI
-
-[ActionSchema](https://github.com/CodeFromAnywhere/ActionSchema) makes it possible to perform operations on items in a list, but it also makes it possible to grow your data into an ever-evolving system using data-centric programming.
-
-Coming soon.
-
-<!-- Check our demo [here](https://demo.actionschema.com) -->
-
-![](actionschema.drawio.png)
 
 # Why
 
