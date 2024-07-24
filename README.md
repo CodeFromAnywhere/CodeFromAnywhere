@@ -3,11 +3,6 @@
 ["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). In this document I present you the following modular building blocks, fully open source. Beware that most of it is still a work in progress! See this [high level overview](#highlevel-actionschema) for the current status.
 
 <!--
-## User OpenAPI
-
-Serve simple functionality behind a monetizable user-gateway [More info here](https://github.com/CodeFromAnywhere/user-openapi)
-
-![](https://raw.githubusercontent.com/CodeFromAnywhere/user-openapi/main/user-openapi.drawio.svg)
 
 ## State Operations OpenAPI
 
@@ -18,7 +13,6 @@ Coming soon.
 <!-- Check our demo [here](https://demo.actionschema.com)
 
 ![](actionschema.drawio.png)
-
 
 ## OpenAPI Explorer
 
@@ -95,6 +89,7 @@ This is the current ecosystem of projects developed by Code From Anywhere (❗�
 | [Agent OpenAPI](https://agent.actionschema.com)                | Turn any API into an Agent         | 🟩🟩🟧🟥🟥🟥   | 🟢 Simple POC<br>🟢 OpenAPI-centric Refactor<br>🟠 Use tools from OpenAPIs with OAuth2<br>🔴 Agent Creator Agent<br>🔴 Files<br>🔴 Threads                                   | ±2k  |
 | [OpenAPI Explorer](https://explorer.actionschema.com)          | Explore OpenAPI Possibilities      | 🟩🟩🟩🟥       | 🟢 Simple OpenAPI overview with experimental forms<br>🟢 Aggregate openapis from multiple endpoints<br>🟢 Expose LLM search endpoint.<br>🟠 Manual entry                     | ±2k  |
 | [Agent Relay](https://github.com/CodeFromAnywhere/agent-relay) | Make agent available anywhere      | 🟩🟩🟩🟥🟥🟥🟥 | 🟢 Browser & Phonecall STS<br>🟢 Custom agent compatibility<br>🟢 Whatsapp, SMS, Messenger<br>🔴 Agent-first refactor<br>🔴 Email<br>🔴 Deepgram STS Tool use<br>🔴 Outbound | 1175 |
+|                                                                |                                    |                |                                                                                                                                                                              | 8175 |
 
 A dependency to the above is what I call "OpenAPI-first development". It is an opinionated way of [design-first](https://swagger.io/blog/code-first-vs-design-first-api/) development where your OpenAPI serves as the SSOT for a lot of things, and you don't generate it, you rather generate pieces in your code FROM it.
 
@@ -103,17 +98,15 @@ If I feel _fancy_, work on this. More experimental:
 | Website                                                          | Purpose                                                    | Status     | POC or next steps                                                          | Depends on                                                                                                 |
 | ---------------------------------------------------------------- | ---------------------------------------------------------- | ---------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | OpenAPI Tester                                                   |                                                            | Big Wish   | E2E testing/validating an OpenAPI's functionality                          | ActionSchema                                                                                               |
-|                                                                  |                                                            |            |                                                                            |                                                                                                            |
 |                                                                  |                                                            | Brainstorm | Natural Language to Operations mapping                                     | Good OpenAPI search                                                                                        |
 |                                                                  |                                                            | Brainstorm | LLM Hierarchy Creation, Maintenance, and Search                            |                                                                                                            |
 | ActionSchema Demo                                                | Show how ActionSchema works                                | Paused     | VSCode plugin for OpenAPI selection and form-filling                       | Functional OpenAPI                                                                                         |
 |                                                                  |                                                            | Big Wish   | Slow-agents that can continue very long or self-activate                   | ActionSchema                                                                                               |
 | Universal API                                                    | Universal-API or Open-LAM                                  | Brainstorm | Exposes all services through a single cacheable NLP endpoint               | OpenAPI Explorer, Search, Proxy                                                                            |
 | Normalise GPT                                                    | Schema Normalisation                                       | Brainstorm |                                                                            |                                                                                                            |
+| Serverless Browser                                               | Serverless Playwright Browsing OpenAPI                     | Idea       |                                                                            |                                                                                                            |
 | Human OpenAPI                                                    | Turn people into agent-tools                               |            | User can signup after which the API can communicate with the user          | 🟢 Agent Relay, 🔴 User OpenAPI                                                                            |
 | [Enhancement Proxy](https://openapi.actionschema.com)            | Allow agents to iteratively improve their tools            | 🚫         | Paused. Will be solved by CRUDE                                            | 🚫 Finish ActionSchema Rewrite<br>🟠 Serve on subdomain with frontpage<br>🔴 Create OpenAPI to self-modify |
-| Serverless Browser                                               | Serverless Playwright Browsing OpenAPI                     | Idea       |                                                                            |                                                                                                            |
-| oAuth2 Authenticator                                             | Automatic signup, login, and payments to gather API access | Idea       |                                                                            |                                                                                                            |
 | [Combination Proxy](https://proxy.actionschema.com)              | Combine multiple OpenAPIs into one                         | 🔴         | 🟠 Serve with form to make your own easily.<br>🔴 Examples of agents.      |                                                                                                            |
 | [actionschema](https://github.com/CodeFromAnywhere/ActionSchema) | Extension of JSON Schema allowing data-centric development |            | 🟠 Rewrite to v2 in progress<br>🔴 x-proxy<br>🔴 x-schema<br>🔴 x-code<br> |                                                                                                            |
 
