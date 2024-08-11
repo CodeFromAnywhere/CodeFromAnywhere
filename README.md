@@ -2,36 +2,6 @@
 
 ["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). In this document I present you the following modular building blocks, fully open source. Beware that most of it is still a work in progress! See this [high level overview](#highlevel-actionschema) for the current status.
 
-<!--
-
-## State Operations OpenAPI
-
-[ActionSchema](https://github.com/CodeFromAnywhere/ActionSchema) makes it possible to perform operations on items in a list, but it also makes it possible to grow your data into an ever-evolving system using data-centric programming.
-
-Coming soon.
-
-<!-- Check our demo [here](https://demo.actionschema.com)
-
-![](actionschema.drawio.png)
-
-## OpenAPI Explorer
-
-A single OpenAPI usually is comprised of many services. To find these services, we've created the [OpenAPI Explorer](https://explorer.actionschema.com) so you can find programmable services (that agents can use) more easily.
-
-![](explorer.drawio.png)
-
-## Enhancement Proxy
-
-The Enhancement Proxy improves OpenAPIs, making them error-free and more easy to understand for agents. Make your own enhancement proxy [here](https://openapi.actionschema.com)
-
-![](enhancement-proxy.drawio.png) -->
-
-<!-- ## Combination Proxy
-
-The Combination Proxy allows you to create a combination of multiple (subsets of) OpenAPIs, to serve as a new OpenAPI.
-
-![](combination-proxy.drawio.png) -->
-
 ## Agent OpenAPI
 
 Turn any API into an Agent, Turn any Agent into an API.
@@ -82,14 +52,12 @@ LONGTERM: Keep these stable services for decades. Keep LOC/Complexity LOW.
 
 This is the current ecosystem of projects developed by Code From Anywhere (❗️ dependency, ⏸️ paused, 🚫 blocked, 🔴 not started, 🟠 work in progress, 🟢 done)
 
-| Name                                                           | Purpose                            | Status         | MVP                                                                                                                                                                          | LOC  |
-| -------------------------------------------------------------- | ---------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| Auth                                                           | Central SDK and Agent Auth Gateway | 🟩🟥           | 🟢 GitHub OAuth2 GPT POC<br> 🔴 Refactor                                                                                                                                     |      |
-| [CRUD OpenAPI](https://data.actionschema.com)                  | Turn database into agent-tools     | 🟩🟩🟩🟩🟥     | 🟢 CRUD Only firsst<br>🟢 Semantic search<br>🟢 CLI<br>🟢 CRUD-Agent <br>🔴 Config: user separation<br>                                                                      | ±3k  |
-| [Agent OpenAPI](https://agent.actionschema.com)                | Turn any API into an Agent         | 🟩🟩🟧🟥🟥🟥   | 🟢 Simple POC<br>🟢 OpenAPI-centric Refactor<br>🟠 Use tools from OpenAPIs with OAuth2<br>🔴 Agent Creator Agent<br>🔴 Files<br>🔴 Threads                                   | ±2k  |
-| [OpenAPI Explorer](https://explorer.actionschema.com)          | Explore OpenAPI Possibilities      | 🟩🟩🟩🟥       | 🟢 Simple OpenAPI overview with experimental forms<br>🟢 Aggregate openapis from multiple endpoints<br>🟢 Expose LLM search endpoint.<br>🟠 Manual entry                     | ±2k  |
-| [Agent Relay](https://github.com/CodeFromAnywhere/agent-relay) | Make agent available anywhere      | 🟩🟩🟩🟥🟥🟥🟥 | 🟢 Browser & Phonecall STS<br>🟢 Custom agent compatibility<br>🟢 Whatsapp, SMS, Messenger<br>🔴 Agent-first refactor<br>🔴 Email<br>🔴 Deepgram STS Tool use<br>🔴 Outbound | 1175 |
-|                                                                |                                    |                |                                                                                                                                                                              | 8175 |
+| Name                                                           | Purpose                        | Status         | MVP                                                                                                                                                                          | LOC  |
+| -------------------------------------------------------------- | ------------------------------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| [CRUD OpenAPI](https://data.actionschema.com)                  | Turn database into agent-tools | 🟩🟩🟩🟩🟥     | 🟢 CRUD Only firsst<br>🟢 Semantic search<br>🟢 CLI<br>🟢 CRUD-Agent <br>🔴 Config: user separation<br>                                                                      | ±3k  |
+| [Agent OpenAPI](https://agent.actionschema.com)                | Turn any API into an Agent     | 🟩🟩🟧🟥🟥🟥   | 🟢 Simple POC<br>🟢 OpenAPI-centric Refactor<br>🟠 Use tools from OpenAPIs with OAuth2<br>🔴 Agent Creator Agent<br>🔴 Files<br>🔴 Threads                                   | ±2k  |
+| [Agent Relay](https://github.com/CodeFromAnywhere/agent-relay) | Make agent available anywhere  | 🟩🟩🟩🟥🟥🟥🟥 | 🟢 Browser & Phonecall STS<br>🟢 Custom agent compatibility<br>🟢 Whatsapp, SMS, Messenger<br>🔴 Agent-first refactor<br>🔴 Email<br>🔴 Deepgram STS Tool use<br>🔴 Outbound | 1175 |
+|                                                                |                                |                |                                                                                                                                                                              | 8175 |
 
 A dependency to the above is what I call "OpenAPI-first development". It is an opinionated way of [design-first](https://swagger.io/blog/code-first-vs-design-first-api/) development where your OpenAPI serves as the SSOT for a lot of things, and you don't generate it, you rather generate pieces in your code FROM it.
 
@@ -101,24 +69,11 @@ A dependency to the above is what I call "OpenAPI-first development". It is an o
 - Most users care about their privacy and would want to have things ran locally. However, running locally is hard to setup and scale. Another way to have practical privacy is to keep the core local, but run smaller fleeting tasks in the cloud.
 - How any API works exactly doesn't need to be abstracted away from. The only thing we need to do is determine API capability, quality, speed, cost, and availability.
 
-## Questions
-
-- Can ActionSchema become agentic: allowing an agent to decompose tasks in parallel and sequential ways?
-- How can I build a meta programming language that dynamically finds new actions, tests them, and improves them, that can create purpose-oriented change in a system?
-  - How can I measure purpose-oriented change and figure out whether it's worth the cost?
-
 # Let's Code From Anywhere!
 
 Welcome to [Code From Anywhere](https://codefromanywhere.com/) - a group of distributed developers and entrepreneurs building planet-first & humane-centered software. We work remotely but often come together in places like Nepal and Brazil, going on adventures.
 
 We 🤍 Developers, AI Startups & Adventurers. Do you have a question, comment, or want to connect? Head over to our [Discord](https://discord.gg/56yJzjJjHu)
-
-# Contributors and Sponsors
-
-Top contributors
-
-- [Wijnand Karsens](https://karsens.com)
-- lonely here... 👀
 
 # License
 
@@ -132,4 +87,4 @@ If your company generates more than $1,000,000 in Annual Recurring Revenue (ARR)
 
 ## Contact
 
-For commercial licensing inquiries, please contact Wijnand at wijnand@karsens.com
+For commercial licensing inquiries, please contact Wijnand at wijnand AT karsens DOT com
