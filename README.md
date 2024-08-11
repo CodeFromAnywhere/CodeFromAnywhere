@@ -64,7 +64,7 @@ Data needs to be discoverable as tools. A reliable CRUD Agent is extremely usefu
 
 - Analysing thousands of services on capability, quality, speed, cost, and availability.
 - Have a scalable way to sign up and get access to all service providers with multiple accounts.
-- Proxy them into my own gateway which can be made available as a "Universal API" that exposes all services through a single endpoint.
+- Proxy them into a gateway which can be made available as a "Universal API".
 
 Strategy: **ActionSchema** for _Devs_: **OEF**
 
@@ -92,23 +92,6 @@ This is the current ecosystem of projects developed by Code From Anywhere (❗�
 |                                                                |                                    |                |                                                                                                                                                                              | 8175 |
 
 A dependency to the above is what I call "OpenAPI-first development". It is an opinionated way of [design-first](https://swagger.io/blog/code-first-vs-design-first-api/) development where your OpenAPI serves as the SSOT for a lot of things, and you don't generate it, you rather generate pieces in your code FROM it.
-
-If I feel _fancy_, work on this. More experimental:
-
-| Website                                                          | Purpose                                                    | Status     | POC or next steps                                                          | Depends on                                                                                                 |
-| ---------------------------------------------------------------- | ---------------------------------------------------------- | ---------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| OpenAPI Tester                                                   |                                                            | Big Wish   | E2E testing/validating an OpenAPI's functionality                          | ActionSchema                                                                                               |
-|                                                                  |                                                            | Brainstorm | Natural Language to Operations mapping                                     | Good OpenAPI search                                                                                        |
-|                                                                  |                                                            | Brainstorm | LLM Hierarchy Creation, Maintenance, and Search                            |                                                                                                            |
-| ActionSchema Demo                                                | Show how ActionSchema works                                | Paused     | VSCode plugin for OpenAPI selection and form-filling                       | Functional OpenAPI                                                                                         |
-|                                                                  |                                                            | Big Wish   | Slow-agents that can continue very long or self-activate                   | ActionSchema                                                                                               |
-| Universal API                                                    | Universal-API or Open-LAM                                  | Brainstorm | Exposes all services through a single cacheable NLP endpoint               | OpenAPI Explorer, Search, Proxy                                                                            |
-| Normalise GPT                                                    | Schema Normalisation                                       | Brainstorm |                                                                            |                                                                                                            |
-| Serverless Browser                                               | Serverless Playwright Browsing OpenAPI                     | Idea       |                                                                            |                                                                                                            |
-| Human OpenAPI                                                    | Turn people into agent-tools                               |            | User can signup after which the API can communicate with the user          | 🟢 Agent Relay, 🔴 User OpenAPI                                                                            |
-| [Enhancement Proxy](https://openapi.actionschema.com)            | Allow agents to iteratively improve their tools            | 🚫         | Paused. Will be solved by CRUDE                                            | 🚫 Finish ActionSchema Rewrite<br>🟠 Serve on subdomain with frontpage<br>🔴 Create OpenAPI to self-modify |
-| [Combination Proxy](https://proxy.actionschema.com)              | Combine multiple OpenAPIs into one                         | 🔴         | 🟠 Serve with form to make your own easily.<br>🔴 Examples of agents.      |                                                                                                            |
-| [actionschema](https://github.com/CodeFromAnywhere/ActionSchema) | Extension of JSON Schema allowing data-centric development |            | 🟠 Rewrite to v2 in progress<br>🔴 x-proxy<br>🔴 x-schema<br>🔴 x-code<br> |                                                                                                            |
 
 # Key insights
 
