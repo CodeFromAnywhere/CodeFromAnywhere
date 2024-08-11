@@ -30,24 +30,6 @@ Data needs to be discoverable as tools. A reliable CRUD Agent is extremely usefu
   <!-- - The cost of knowledge work is trending to zero. I might as well put it at zero right now, so I can find my true value elsewhere. Open value creation seems fundamentally better, which is why this project is fully open source. -->
   <!-- - Functionally, I don't like most big AI Frameworks like LangChain because they are boilerplate-heavy, ill-tested, buggy, and founded on "hasty abstractions". OpenAPI is a long-standing standard that is not so well adopted yet in the AI world, and this has to change, as it's perfect for the use-case of tools for agents! -->
 
-# Key Focus: Reliable Agents by intelligent search
-
-- Analysing thousands of services on capability, quality, speed, cost, and availability.
-- Have a scalable way to sign up and get access to all service providers with multiple accounts.
-- Proxy them into a gateway which can be made available as a "Universal API".
-
-Strategy: **ActionSchema** for _Devs_: **OEF**
-
-- Devs want _Open_ source. Give it.
-- Devs want _Easy_: Serve it BYOK, accessible, and useful.
-- Devs want _Freedom_. Provide them agents so they can go Screenless.
-
-**ActionSchema in different keywords: AI Software Engineer, Universal API, Reliable Agents, OLAM**
-
-TODO: Keep jumping between these projects and aim to finish them asap. **Laserfocus**.
-
-LONGTERM: Keep these stable services for decades. Keep LOC/Complexity LOW.
-
 # Highlevel ActionSchema
 
 This is the current ecosystem of projects developed by Code From Anywhere (❗️ dependency, ⏸️ paused, 🚫 blocked, 🔴 not started, 🟠 work in progress, 🟢 done)
@@ -60,6 +42,14 @@ This is the current ecosystem of projects developed by Code From Anywhere (❗�
 |                                                                |                                |                |                                                                                                                                                                              | 8175 |
 
 A dependency to the above is what I call "OpenAPI-first development". It is an opinionated way of [design-first](https://swagger.io/blog/code-first-vs-design-first-api/) development where your OpenAPI serves as the SSOT for a lot of things, and you don't generate it, you rather generate pieces in your code FROM it.
+
+# Strategy
+
+**ActionSchema** for _Devs_: **OEF**
+
+- Devs want _Open_ source. Give it.
+- Devs want _Easy_: Serve it BYOK, accessible, and useful.
+- Devs want _Freedom_. Provide them agents so they can go Screenless.
 
 # Key insights
 
