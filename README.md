@@ -27,22 +27,6 @@ Data needs to be discoverable as tools. A reliable CRUD Agent is extremely usefu
 - We're living through a technological paradigm shift that will change how we interact with computers, and how humans can find purpose. A new foundation is being created now. In this important time, I want to do my part setting good standards for HMC that benefits humanity.
 - Big tech capitalism is trying to create a controlled closed ecosystem for AI. As AGI is approaching, misaligned commercial incentives become ever more extreme, and I don't want to live in this walled garden distopia. The solution is an open, accessible, modular ecosystem for AI Agents. An ecosystem without any vendor lock-in or privacy problems. An ecosystem where we, the people, stay in control.
 
-  <!-- - The cost of knowledge work is trending to zero. I might as well put it at zero right now, so I can find my true value elsewhere. Open value creation seems fundamentally better, which is why this project is fully open source. -->
-  <!-- - Functionally, I don't like most big AI Frameworks like LangChain because they are boilerplate-heavy, ill-tested, buggy, and founded on "hasty abstractions". OpenAPI is a long-standing standard that is not so well adopted yet in the AI world, and this has to change, as it's perfect for the use-case of tools for agents! -->
-
-# Highlevel ActionSchema
-
-This is the current ecosystem of projects developed by Code From Anywhere (❗️ dependency, ⏸️ paused, 🚫 blocked, 🔴 not started, 🟠 work in progress, 🟢 done)
-
-| Name                                                           | Purpose                        | Status         | MVP                                                                                                                                                                          | LOC  |
-| -------------------------------------------------------------- | ------------------------------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| [CRUD OpenAPI](https://data.actionschema.com)                  | Turn database into agent-tools | 🟩🟩🟩🟩🟥     | 🟢 CRUD Only firsst<br>🟢 Semantic search<br>🟢 CLI<br>🟢 CRUD-Agent <br>🔴 Config: user separation<br>                                                                      | ±3k  |
-| [Agent OpenAPI](https://agent.actionschema.com)                | Turn any API into an Agent     | 🟩🟩🟧🟥🟥🟥   | 🟢 Simple POC<br>🟢 OpenAPI-centric Refactor<br>🟠 Use tools from OpenAPIs with OAuth2<br>🔴 Agent Creator Agent<br>🔴 Files<br>🔴 Threads                                   | ±2k  |
-| [Agent Relay](https://github.com/CodeFromAnywhere/agent-relay) | Make agent available anywhere  | 🟩🟩🟩🟥🟥🟥🟥 | 🟢 Browser & Phonecall STS<br>🟢 Custom agent compatibility<br>🟢 Whatsapp, SMS, Messenger<br>🔴 Agent-first refactor<br>🔴 Email<br>🔴 Deepgram STS Tool use<br>🔴 Outbound | 1175 |
-|                                                                |                                |                |                                                                                                                                                                              | 8175 |
-
-A dependency to the above is what I call "OpenAPI-first development". It is an opinionated way of [design-first](https://swagger.io/blog/code-first-vs-design-first-api/) development where your OpenAPI serves as the SSOT for a lot of things, and you don't generate it, you rather generate pieces in your code FROM it.
-
 # Strategy
 
 **ActionSchema** for _Devs_: **OEF**
@@ -53,6 +37,7 @@ A dependency to the above is what I call "OpenAPI-first development". It is an o
 
 # Key insights
 
+- A dependency to the above is what I call "OpenAPI-first development". It is an opinionated way of [design-first](https://swagger.io/blog/code-first-vs-design-first-api/) development where your OpenAPI serves as the SSOT for a lot of things, and you don't generate it, you rather generate pieces in your code FROM it.
 - Most AI is focused around realtime co-pilots because we're all still used to the direct HMC. Try making ambient pilots that don't need to be fast.
 - Pick my focus. Big topics like browser automation APIs and video editing are done by hundreds of companies and are extremely hard to stay competitive in; It's a never-ending cat and mouse game.
 - Products and APIs change all the time. Instead of choosing to spend knowledgework time in specific niches, index all available capabilities.
