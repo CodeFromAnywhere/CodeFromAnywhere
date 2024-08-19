@@ -1,6 +1,6 @@
 # Missing Building Blocks in the Agent World
 
-["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). In this document I present you the following modular building blocks, fully open source. Beware that most of it is still a work in progress! See this [high level overview](#highlevel-actionschema) for the current status.
+["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). In this document I present you the following modular building blocks, fully open source. Beware that most of it is still a work in progress!
 
 ## Agent OpenAPI
 
