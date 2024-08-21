@@ -1,6 +1,6 @@
 # Missing Building Blocks in the Agent World
 
-["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). I'm Wynand and here are some of my current interests.
+["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). I'm [@wkarsens](https://x.com/wkarsens) and here are some of my current interests.
 
 ## OpenAPI Search Engine
 
