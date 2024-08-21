@@ -57,7 +57,7 @@ I have many more projects. Check [my repos](https://github.actionschema.com/Code
 
 # Let's Code From Anywhere!
 
-This GitHub is currently maintained by [wkarsens](https://x.com/wkarsens) and is part of the [Code From Anywhere](https://codefromanywhere.com/) movement. We are a decentralised applied AI research lab building planet-first & humane-centered applications.
+This GitHub is currently maintained by [@wkarsens](https://x.com/wkarsens) and is part of the [Code From Anywhere](https://codefromanywhere.com/) movement. We are a decentralised applied AI research lab building planet-first & humane-centered applications.
 
 # Commercial License
 
