@@ -1,8 +1,6 @@
 # Missing Building Blocks in the Agent World
 
-["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). Here are some of my current interests.
-
-~ Wyn
+["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). I'm Wynand and here are some of my current interests.
 
 ## OpenAPI Search Engine
 
@@ -59,7 +57,7 @@ I have many more projects. Check [my repos](https://github.actionschema.com/Code
 
 # Let's Code From Anywhere!
 
-This GitHub is currently maintained by [Wyn](https://linkedin.com/in/karsens) and is part of the [Code From Anywhere](https://codefromanywhere.com/) movement. We are a decentralised applied AI research lab building planet-first & humane-centered applications.
+This GitHub is currently maintained by [wkarsens](https://x.com/wkarsens) and is part of the [Code From Anywhere](https://codefromanywhere.com/) movement. We are a decentralised applied AI research lab building planet-first & humane-centered applications.
 
 # Commercial License
 
