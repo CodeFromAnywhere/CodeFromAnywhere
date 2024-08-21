@@ -1,39 +1,55 @@
 # Missing Building Blocks in the Agent World
 
-["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). In this document I present you the following modular building blocks, fully open source. Beware that most of it is still a work in progress!
+["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). Here are some of my current interests.
 
-## Agent OpenAPI
+~ Wyn
 
-Turn any API into an Agent, Turn any Agent into an API.
+## OpenAPI Search Engine
 
-The Agent OpenAPI serves an OpenAPI for talking to an agent, so it can be discovered publicly, and can be used as a tool for other agents. More information in the [Agent OpenAPI GitHub](https://github.com/CodeFromAnywhere/agent-openapi)
+OpenAPIs are an elegant way of describing the capability of a system and how to interface with it. A search engine to find operations you need is useful for developers. [Try it here](https://actionschema.com) (early access)
+
+![](openapi-search.png)
+
+## Agent Identity Provider
+
+Agents need to be authorized to take actions on the internet. I'm building a flexible auth layer allowing for programmatic agent authentication.
+
+<!-- Fix auth and make little gif of actionschema oauth2 login with scope -->
+
+## OpenAPI Chat Completion
+
+<!-- Fix chat and make little gif of me taking an action -->
+
+Turn any API into tools for an agent, Turn any tools-powered chat completion into an API.
+
+OpenAPI Chat Completion serves an OpenAPI for talking to an agent, so it can be discovered publicly, and can be used as a tool for other agents.
 
 ![](agent-openapi.drawio.png)
 
 ## Agent Relay
 
-Agents need to be accessible from anywhere. The Agent Relay makes agents accessible from messaging apps, VoIP and phonecalls, and over email! Check out the [Agent Relay on GitHub](https://github.com/CodeFromAnywhere/agent-relay)
+Agents need to be accessible from anywhere. The Agent Relay makes agents accessible from messaging apps, VoIP and phonecalls, and over email!
 
 ![](agent-relay.drawio.png)
 
-## CRUD OpenAPI
+## Upstash CRUD OpenAPI
 
-Data needs to be discoverable as tools. A reliable CRUD Agent is extremely useful. [More info here](https://github.com/CodeFromAnywhere/crud-openapi)
+Data needs to be discoverable as tools. A reliable CRUD Agent is extremely useful. [More info here](https://github.com/CodeFromAnywhere/upstash-crud-openapi)
 
 ![](crud-agent.drawio.png)
+
+## GitHub OpenAPI
+
+I'm building agents that can understand and search through code or get access to up-to-date knowledge-base.
+
+# More projects
+
+I have many more projects. Check [my repos](https://github.actionschema.com/CodeFromAnywhere) for an overview (private and public). Interested in [working with me or request a demo?](freelance.md)
 
 # Why
 
 - We're living through a technological paradigm shift that will change how we interact with computers, and how humans can find purpose. A new foundation is being created now. In this important time, I want to do my part setting good standards for HMC that benefits humanity.
 - Big tech capitalism is trying to create a controlled closed ecosystem for AI. As AGI is approaching, misaligned commercial incentives become ever more extreme, and I don't want to live in this walled garden distopia. The solution is an open, accessible, modular ecosystem for AI Agents. An ecosystem without any vendor lock-in or privacy problems. An ecosystem where we, the people, stay in control.
-
-# Strategy
-
-**ActionSchema** for _Devs_: **OEF**
-
-- Devs want _Open_ source. Give it.
-- Devs want _Easy_: Serve it BYOK, accessible, and useful.
-- Devs want _Freedom_. Provide them agents so they can go Screenless.
 
 # Key insights
 
@@ -46,20 +62,8 @@ Data needs to be discoverable as tools. A reliable CRUD Agent is extremely usefu
 
 # Let's Code From Anywhere!
 
-Welcome to [Code From Anywhere](https://codefromanywhere.com/) - a group of distributed developers and entrepreneurs building planet-first & humane-centered software. We work remotely but often come together in places like Nepal and Brazil, going on adventures.
+This GitHub is currently maintained by [Wyn](https://linkedin.com/in/karsens) and is part of the [Code From Anywhere](https://codefromanywhere.com/) movement. We are a decentralised applied AI research lab building planet-first & humane-centered applications.
 
-We 🤍 Developers, AI Startups & Adventurers. Do you have a question, comment, or want to connect? Head over to our [Discord](https://discord.gg/56yJzjJjHu)
+# Commercial License
 
-# License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
-
-## Commercial License
-
-If your company generates more than $1,000,000 in Annual Recurring Revenue (ARR), you are required to obtain a commercial license. Please see the [COMMERCIAL_LICENSE](COMMERCIAL_LICENSE.md) file for more information.
-
-## Contact
-
-For commercial licensing inquiries, please contact Wijnand at wijnand AT karsens DOT com
+For all open source work that can be found on this GitHub, if your company generates more than $1,000,000 in Annual Recurring Revenue (ARR), you are required to obtain a commercial license. Please see the [COMMERCIAL_LICENSE](COMMERCIAL_LICENSE.md) file for more information. For commercial licensing inquiries, or other partnerships, please see my [freelancing rules](freelance.md)
