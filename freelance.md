@@ -27,6 +27,6 @@ Here are my rules:
 
 Ready to innovate? Let's discuss your project:
 
-📅 [Schedule a consultation](https://cal.com/karsens)
-📧 [Email me directly](mailto:w@karsens.com)
-🐦 [Connect on Twitter](https://twitter.com/wkarsens)"
+- 📅 [Schedule a consultation](https://cal.com/karsens)
+- 📧 [Email me directly](mailto:w@karsens.com)
+- 🐦 [Connect on Twitter](https://twitter.com/wkarsens)"
