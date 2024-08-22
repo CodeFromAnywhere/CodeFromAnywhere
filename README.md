@@ -26,17 +26,23 @@ OpenAPI Chat Completion serves an OpenAPI for talking to an agent, so it can be 
 
 ## Agent Relay
 
+<!-- TODO: Link to blog -->
+
 Agents need to be accessible from anywhere. The Agent Relay makes agents accessible from messaging apps, VoIP and phonecalls, and over email!
 
 ![](agent-relay.drawio.png)
 
 ## Upstash CRUD OpenAPI
 
+<!-- TODO: Link to blog -->
+
 Data needs to be discoverable as tools. A reliable CRUD Agent is extremely useful. [More info here](https://github.com/CodeFromAnywhere/upstash-crud-openapi)
 
 ![](crud-agent.drawio.png)
 
 ## GitHub OpenAPI
+
+<!-- TODO: Link to blog -->
 
 I'm building agents that can understand and search through code or get access to up-to-date knowledge-base.
 
