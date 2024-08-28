@@ -48,7 +48,7 @@ I'm building agents that can understand and search through code or get access to
 
 # More projects
 
-I have many more projects. Check [my repos](https://github.actionschema.com/CodeFromAnywhere) for an overview (private and public). Interested in [working with me or request a demo?](freelance.md)
+I have many more projects. Check [my repos](https://github.com/CodeFromAnywhere) for an overview. Interested in [working with me or request a demo?](freelance.md)
 
 # Key insights
 
