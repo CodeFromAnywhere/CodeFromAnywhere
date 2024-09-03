@@ -2,7 +2,7 @@
 
 ["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). I'm [@wkarsens](https://x.com/wkarsens) and here are some of my current interests.
 
-## OpenAPI Search Engine
+## Main Focus Now (Sept 2024): OpenAPI Search Engine
 
 OpenAPIs are an elegant way of describing the capability of a system and how to interface with it. A search engine to find operations you need is useful for developers. [Try it here](https://openapisearch.com) (early access)
 
@@ -48,7 +48,7 @@ I'm building agents that can understand and search through code or get access to
 
 # More projects
 
-I have many more projects most of which are WIP. Check [my repos](https://github.com/CodeFromAnywhere/repos) for an overview. Interested in [working with me or request a demo?](freelance.md)
+I have many more projects most of which are WIP. Check [my repos](https://github.com/CodeFromAnywhere?tab=repositories) for an overview. Interested in [working with me or request a demo?](freelance.md)
 
 # Key insights
 
