@@ -4,19 +4,18 @@
 
 ## OpenAPI Search Engine
 
-OpenAPIs are an elegant way of describing the capability of a system and how to interface with it. A search engine to find operations you need is useful for developers. [Try it here](https://actionschema.com) (early access)
+OpenAPIs are an elegant way of describing the capability of a system and how to interface with it. A search engine to find operations you need is useful for developers. [Try it here](https://openapisearch.com) (early access)
 
-![](openapi-search.png)
-
+<!--
 ## Agent Identity Provider
 
 Agents need to be authorized to take actions on the internet. I'm building a flexible auth layer allowing for programmatic agent authentication.
 
-<!-- Fix auth and make little gif of actionschema oauth2 login with scope -->
+ Fix auth and make little gif of actionschema oauth2 login with scope 
 
 ## OpenAPI Chat Completion
 
-<!-- Fix chat and make little gif of me taking an action -->
+<!-- Fix chat and make little gif of me taking an action 
 
 Turn any API into tools for an agent, Turn any tools-powered chat completion into an API.
 
@@ -26,7 +25,7 @@ OpenAPI Chat Completion serves an OpenAPI for talking to an agent, so it can be 
 
 ## Agent Relay
 
-<!-- TODO: Link to blog -->
+<!-- TODO: Link to blog 
 
 Agents need to be accessible from anywhere. The Agent Relay makes agents accessible from messaging apps, VoIP and phonecalls, and over email!
 
@@ -34,7 +33,7 @@ Agents need to be accessible from anywhere. The Agent Relay makes agents accessi
 
 ## Upstash CRUD OpenAPI
 
-<!-- TODO: Link to blog -->
+<!-- TODO: Link to blog 
 
 Data needs to be discoverable as tools. A reliable CRUD Agent is extremely useful. [More info here](https://github.com/CodeFromAnywhere/upstash-crud-openapi)
 
@@ -42,13 +41,14 @@ Data needs to be discoverable as tools. A reliable CRUD Agent is extremely usefu
 
 ## GitHub OpenAPI
 
-<!-- TODO: Link to blog -->
+<!-- TODO: Link to blog 
 
 I'm building agents that can understand and search through code or get access to up-to-date knowledge-base.
+-->
 
 # More projects
 
-I have many more projects. Check [my repos](https://github.com/CodeFromAnywhere) for an overview. Interested in [working with me or request a demo?](freelance.md)
+I have many more projects most of which are WIP. Check [my repos](https://github.com/CodeFromAnywhere/repos) for an overview. Interested in [working with me or request a demo?](freelance.md)
 
 # Key insights
 
