@@ -1,6 +1,7 @@
 # Missing Building Blocks in the Agent World
 
-["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). I'm [@wkarsens](https://x.com/wkarsens) and here are some of my current interests.
+["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). I'm [@wkarsens](https://x.com/wkarsens) and here you can find some of my open source work. Also see [freelancing rules](freelance.md) if you like to work with me.
+
 
 
 <!--
@@ -67,7 +68,3 @@ This GitHub is currently maintained by [@wkarsens](https://x.com/wkarsens) and i
 - Products and APIs change all the time. Instead of choosing to spend knowledgework time in specific niches, index all available capabilities.
 - Most users care about their privacy and would want to have things ran locally. However, running locally is hard to setup and scale. Another way to have practical privacy is to keep the core local, but run smaller fleeting tasks in the cloud.
 - How any API works exactly doesn't need to be abstracted away from. The only thing we need to do is determine API capability, quality, speed, cost, and availability.
-
-# Commercial License
-
-For all open source work that can be found on this GitHub, if your company generates more than $1,000,000 in Annual Recurring Revenue (ARR), you are required to obtain a commercial license. Please see the [COMMERCIAL_LICENSE](COMMERCIAL_LICENSE.md) file for more information. For commercial licensing inquiries, or other partnerships, please see my [freelancing rules](freelance.md)
