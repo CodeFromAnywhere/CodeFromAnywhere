@@ -2,11 +2,12 @@
 
 ["AI Agents will likely be the most impactful technology of our generation"](https://transitivebullsh.it/ai-agents). I'm [@wkarsens](https://x.com/wkarsens) and here are some of my current interests.
 
+
+<!--
 ## Main Focus Now (Sept 2024): OpenAPI Search Engine
 
 OpenAPIs are an elegant way of describing the capability of a system and how to interface with it. A search engine to find operations you need is useful for developers. [Try it here](https://openapisearch.com) (early access)
 
-<!--
 ## Agent Identity Provider
 
 Agents need to be authorized to take actions on the internet. I'm building a flexible auth layer allowing for programmatic agent authentication.
@@ -44,11 +45,17 @@ Data needs to be discoverable as tools. A reliable CRUD Agent is extremely usefu
 <!-- TODO: Link to blog 
 
 I'm building agents that can understand and search through code or get access to up-to-date knowledge-base.
--->
 
 # More projects
 
 I have many more projects most of which are WIP. Check [my repos](https://github.com/CodeFromAnywhere?tab=repositories) for an overview. Interested in [working with me or request a demo?](freelance.md)
+
+# Let's Code From Anywhere!
+
+This GitHub is currently maintained by [@wkarsens](https://x.com/wkarsens) and is part of the [Code From Anywhere](https://codefromanywhere.com/) movement. We are a decentralised applied AI research lab building planet-first & humane-centered applications.
+
+-->
+
 
 # Key insights
 
@@ -60,10 +67,6 @@ I have many more projects most of which are WIP. Check [my repos](https://github
 - Products and APIs change all the time. Instead of choosing to spend knowledgework time in specific niches, index all available capabilities.
 - Most users care about their privacy and would want to have things ran locally. However, running locally is hard to setup and scale. Another way to have practical privacy is to keep the core local, but run smaller fleeting tasks in the cloud.
 - How any API works exactly doesn't need to be abstracted away from. The only thing we need to do is determine API capability, quality, speed, cost, and availability.
-
-# Let's Code From Anywhere!
-
-This GitHub is currently maintained by [@wkarsens](https://x.com/wkarsens) and is part of the [Code From Anywhere](https://codefromanywhere.com/) movement. We are a decentralised applied AI research lab building planet-first & humane-centered applications.
 
 # Commercial License
 
